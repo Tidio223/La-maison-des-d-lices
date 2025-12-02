@@ -1,0 +1,78 @@
+/* ----------- HERO (Accueil pleine page) ----------- */
+.hero {
+    height: 100vh; /* pleine hauteur */
+    background: 
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("acc2.jpeg") center/cover no-repeat;
+    color: white;
+}
+
+/* Titres de la section hero */
+.hero h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+/* Bouton principal */
+.hero .btn {
+    font-size: 1.2rem;
+    border-radius: 30px;
+    background-color: orange;   /* Couleur du bouton */
+    color: white;               /* Couleur du texte */
+    border: none;               /* Enlever le contour */
+}
+
+
+/* ----------- SECTION ICÔNES ----------- */
+
+section .bi {
+    transition: 0.3s;
+}
+
+section .bi:hover {
+    transform: scale(1.2);
+    color: #a67800;
+}
+
+
+/* ----------- CARTES DE SPÉCIALITÉS ----------- */
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform .3s, box-shadow .3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+    height: 240px;
+    object-fit: cover;
+}
+
+
+/* ----------- SECTION CONTACT / FOOTER ----------- */
+footer, 
+section[style*="0d1423"] {
+    background-color: #0d1423 !important;
+    color: white;
+}
+
+footer a,
+section[style*="0d1423"] a {
+    color: white;
+    transition: .3s;
+}
+
+footer a:hover,
+section[style*="0d1423"] a:hover {
+    color: #c69007;
+}
+
+

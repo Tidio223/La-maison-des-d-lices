@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .hero {
+            height: 100vh; /* occupe toute la hauteur */
+            background: 
+                linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("acc2.jpeg") center/cover no-repeat;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero d-flex flex-column justify-content-center align-items-center text-center px-3">
+        <h1 class="display-4 fw-bold">La maison des délices</h1>
+        <p class="lead mb-4">
+            Une experience gastronomique exceptionnelle
+        </p>
+
+        <a href="#" class="btn btn-light btn-lg px-4 py-2">
+            Réserver une table 
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Section Icônes -->
+<section class="py-5" style="background:#f8f9fa;">
+    <div class="container">
+        <div class="row text-center">
+
+            <!-- Chef Étoilé -->
+            <div class="col-md-4 mb-4">
+                <i class="bi bi-egg-fried" style="font-size: 3rem; color:#c69007;"></i>
+                <h4 class="fw-bold mt-3">Chef Étoilé</h4>
+                <p class="text-secondary">Cuisine raffinée par notre chef renommé</p>
+            </div>
+
+            <!-- Horaires -->
+            <div class="col-md-4 mb-4">
+                <i class="bi bi-clock" style="font-size: 3rem; color:#c69007;"></i>
+                <h4 class="fw-bold mt-3">Horaires</h4>
+                <p class="text-secondary">Ouvert du Mardi au Dimanche</p>
+            </div>
+
+            <!-- Emplacement -->
+            <div class="col-md-4 mb-4">
+                <i class="bi bi-geo-alt" style="font-size: 3rem; color:#c69007;"></i>
+                <h4 class="fw-bold mt-3">Emplacement</h4>
+                <p class="text-secondary">Au cœur de la ville</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<!-- Section Nos Spécialités -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Nos Spécialités</h2>
+
+        <div class="row g-4">
+
+            <!-- Carte 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4">
+                    <img src="st1.jpeg" 
+                         class="card-img-top rounded-top-4" alt="Saumon en Croûte">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Steack raffinée</h5>
+                        <p class="text-secondary">Découvrez cette recette simple et savoureux</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4">
+                    <img src="som.jpeg" 
+                         class="card-img-top rounded-top-4" alt="Filet mignon">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Poisson gastronomique</h5>
+                        <p class="text-secondary">Pour les amoureux de la simplicité</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 rounded-4">
+                    <img src="des3.jpeg" 
+                         class="card-img-top rounded-top-4" alt="Dessert du Chef">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Dessert du Chef</h5>
+                        <p class="text-secondary">Création unique quotidienne</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-5" style="background-color: #0d1423; color: white;">
+    <div class="container">
+
+        <div class="row">
+            
+            <!-- Colonne Contact -->
+            <div class="col-md-6 mb-4">
+                <h3 class="fw-bold mb-4">Contactez-nous</h3>
+
+                <p class="mb-3">
+                    <i class="fas fa-phone me-2"></i> 
+                    +221 77 482 52 49
+                </p>
+
+                <p class="mb-4">
+                    <i class="fas fa-location-dot me-2"></i> 
+                    123 Rue de la Gastronomie, Paris
+                </p>
+
+                <!-- Icônes réseaux sociaux -->
+                <div class="d-flex gap-4 fs-3">
+                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Colonne Horaires -->
+            <div class="col-md-6 mb-4">
+                <h3 class="fw-bold mb-4">Horaires d'ouverture</h3>
+
+                <p>Mardi - Jeudi : 12h00 - 22h30</p>
+                <p>Vendredi - Samedi : 12h00 - 23h30</p>
+                <p>Dimanche : 12h00 - 22h00</p>
+                <p>Lundi : Fermé</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+</body>
+</html>
